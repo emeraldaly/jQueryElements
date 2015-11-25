@@ -2,7 +2,7 @@
 <html>
 <head>
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
   <title>Date | Radio | Carousel</title>
 </head>
 <body>
@@ -18,8 +18,12 @@
     <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
   </label>
 </div>
+<br>
 <!--Date Picker-->
-
+<div>
+<input class="datepicker" type="text">
+</div>
+<br>
 <!--Carousel-->
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -53,12 +57,13 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-</body>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+ <script type="text/javascript" src="js/lab.js"></script>
   <script type="text/javascript" src="js/picker.js"></script>
   <script type="text/javascript" src="js/picker.date.js"></script>
   <script type="text/javascript" src="js/picker.time.js"></script>
-  <script type="text/javascript" src="js/lab.js"></script>
+  <script type="text/javascript" src="js/legacy.js"></script>
+  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body> 
 </html>
